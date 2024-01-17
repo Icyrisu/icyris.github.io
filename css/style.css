@@ -1,0 +1,103 @@
+body {
+    font-size: 15px;
+    font-family: Poppins;
+    background: linear-gradient(-30deg, #edeaac, #acd3d9, #d6f68a);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+  
+.box {
+    margin: 3% auto;
+    height: auto;
+    width: 80%;
+    border-radius: 10px;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius:10px;
+   
+}
+  
+header{
+    font-family: Righteous;
+    font-size: 30px;
+    background-color: #1b948e;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* Warna teks pada kotak */
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    background-color: rgba( 255, 255, 255, 0.3 );
+    border: 2px solid #2fafa9;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.top {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #0e6b66; 
+    margin-bottom: 170px;
+}
+
+.bot {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #0e6b66;
+}
+
+#sideLength {
+    width: 100%;
+    color: #0e6b66;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #1b948e;
+    padding: 4px;
+}
+
+button {
+    margin-top: 7px;
+    background-color: #1b948e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #0e6b66;
+    transform: translateY(2px);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    border-radius: 0 0 5px 5px;
+    font-family: Poppins;
+    text-align: center;
+    color: #ffffff;
+    background-color: #1b948e;
+}

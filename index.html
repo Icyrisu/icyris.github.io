@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap" rel="stylesheet">
+    <title>Kalkulator Bangun Datar</title>
+  </head>
+
+  <body>
+ 
+    <div class="box">
+
+      <header>
+        <span>Kalkulator Bangun Datar</span>
+      </header>
+
+      <main class="top">
+        <p><b>Selamat Datang di Kalkulator Persegi</b></p>
+        <p><i>Ini adalah web sederhana untuk menghitung luas dan keliling persegi</i></p>
+        <div class="square"></div>
+      </main>
+
+      <main class="bot">
+        <form id="squareForm">
+          <div class="input">
+            <label for="sideLength">Panjang Sisi:</label>
+            <input type="number" id="sideLength" required>
+            <br>
+            <button type="button" onclick="calculate()">Hitung</button>
+            <button type="button" onclick="resetForm()">Reset</button>
+          </div>
+          <div id="result"></div>
+      </form>
+      </main>
+   
+      <footer>
+        <span>by <b>Icyris</b></span>
+      </footer>
+      
+    </div>
+    <script src="/js/script.js"></script>
+
+  </body>
+</html>
